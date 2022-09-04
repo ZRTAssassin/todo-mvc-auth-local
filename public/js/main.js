@@ -69,7 +69,6 @@ async function markIncomplete(){
         console.log(err)
     }
 }
-
 // async function sortAToB(){
 //     try{
 //         const response = await fetch('todos/sortAToB')

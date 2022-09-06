@@ -26,6 +26,7 @@ module.exports = {
         todo: req.body.todoItem,
         giftFor: req.body.giftFor,
         completed: false,
+        status: 'public',
         userId: req.user.id,
       });
       console.log("Todo has been added!");

@@ -13,6 +13,11 @@ const TodoSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  status: {
+    type: String,
+    default: 'public',
+    enum: ['public', 'private']
+  },
   completed: {
     type: Boolean,
     required: true,
